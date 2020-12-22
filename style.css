@@ -1,0 +1,108 @@
+*{
+  font-family: 'Abel', sans-serif;
+
+}
+
+img[alt="logo"]{
+  color: transparent;
+    font-size: 0;
+    vertical-align: middle;
+    border: none;
+    position: absolute;
+    left: 10rem;
+    top: 1.5rem;
+    width: 3.5rem;
+    height: 2.5rem;
+}
+
+img[alt="background"]{
+  border: none;
+  content: '';
+  display: block;
+  color: transparent;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 65rem;
+  z-index: -1;
+  opacity: 90%;
+  
+}
+
+.navbar{
+  background-color: transparent;
+  overflow: hidden;
+  margin-left: 40rem;
+  z-index: 0;
+  color: white;
+}
+
+.navbar [href^="nav2"]{
+  margin-left: 3rem;
+}
+
+.navbar [href^="nav3"]{
+  margin-left: 3rem;
+}
+
+.navbar [href^="nav4"]{
+  margin-left: 10rem;
+  color: white;
+  font-weight: 600;
+}
+.navbar [href^="nav4"]:hover{
+  color: black;
+}
+
+.navbar > a{
+  color: white;
+  font-weight: 500;
+}
+
+a{
+  color: black;
+}
+
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 2%;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.navbar a:hover{
+  color: black;
+}
+
+h1{
+  margin-left: 10%;
+  margin-top: 8%;
+  font-size: 3rem;
+  font-weight: 900;
+  cursor: default;
+}
+
+button{
+  background-color:  rgb(13, 165, 243);
+  color: white;
+  margin-left: 10%;
+  margin-top: 0.8%;
+  border-radius: 0.5rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  width: 9rem;
+  height: 3.5rem;
+  border-color: white;
+  font-weight: bold;
+  cursor:pointer;
+}
+
+button:hover{
+  animation: color_change ease-out 0.3s forwards;
+}
+
+@keyframes color_change{
+  from {background-color:  rgb(13, 165, 243);}
+  to {background-color: rgb(50, 96, 253) }
+}
